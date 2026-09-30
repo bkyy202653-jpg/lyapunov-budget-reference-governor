@@ -1,0 +1,16 @@
+cell 25/175  v=[-0.66 -0.65]  b=0.011052  (478s)
+cell 50/175  v=[-0.41 -0.40]  b=0.038562  (915s)
+cell 75/175  v=[-0.16 -0.15]  b=0.096728  (1358s)
+cell 100/175  v=[0.09 0.10]  b=0.080671  (1801s)
+cell 125/175  v=[0.34 0.35]  b=0.039174  (2220s)
+cell 150/175  v=[0.59 0.60]  b=0.009773  (28219s)
+cell 175/175  v=[0.84 0.85]  b=0.001242  (28616s)
+done in 28616s: min b 0.001021, max b 0.114144, L_Gamma 0.32184, undecided tests 1134
+v=-0.90  certified 0.00102  sampled 0.00068  ratio 1.506
+v=-0.60  certified 0.01452  sampled 0.01367  ratio 1.062
+v=-0.30  certified 0.05774  sampled 0.05620  ratio 1.028
+v= 0.00  certified 0.09707  sampled 0.09626  ratio 1.008
+v= 0.30  certified 0.04495  sampled 0.04278  ratio 1.051
+v= 0.50  certified 0.01789  sampled 0.01709  ratio 1.047
+v= 0.70  certified 0.00417  sampled 0.00404  ratio 1.033
+v= 0.85  certified 0.00124  sampled 0.00103  ratio 1.209

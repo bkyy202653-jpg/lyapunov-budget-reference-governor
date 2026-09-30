@@ -1,0 +1,32 @@
+[S1] umax=1.80 R=0.25 F=0.00156: table done (94s), undecided 369, Gamma_c/F at {-0.9 -0.6 -0.3 0 0.3 0.5 0.7 0.85} = [0.585 4.52 23.7 60 21.5 5.95 1.03 0.248]
+[S1] admissible x0: 8/25, envelope setpoints [-0.6 -0.3 0.3 0.5], transfer [-0.9 -0.8 -0.45 0.4 0.6 0.7 0.75 0.8 0.85], runs per setpoint 72
+[S1] LBG: med 6.38 worst 12.72 unsettled 0 viol(state) 0 viol(any) 0
+[S1] BLF: 60/162 designs admissible (zero state violations, all settled)
+[S1] fastest BLF regardless of violations: [3 20 0.3 0.4 2] med 2.36 worst 2.96 viol runs 1 sat 0.4%
+[S1] BLF admissible best: [3 20 0.45 0.4 2] med 2.37 worst 3.12 sat 0.42%
+[S1] transfer (state-violation % | median ts):
+   r=-0.90  Gam/F= 0.59 | LBG   0.0%  11.94 | BLF  25.0%   3.00
+   r=-0.80  Gam/F= 1.09 | LBG   0.0%   7.55 | BLF  12.5%   2.80
+   r=-0.45  Gam/F=11.18 | LBG   0.0%   6.07 | BLF   0.0%   2.39
+   r= 0.40  Gam/F=12.01 | LBG   0.0%   7.30 | BLF   0.0%   2.43
+   r= 0.60  Gam/F= 2.61 | LBG   0.0%   6.25 | BLF  12.5%   2.63
+   r= 0.70  Gam/F= 1.03 | LBG   0.0%   8.21 | BLF  25.0%   2.78
+   r= 0.75  Gam/F= 0.63 | LBG   0.0%   9.67 | BLF  25.0%   2.84
+   r= 0.80  Gam/F= 0.37 | LBG   0.0%  12.77 | BLF  37.5%   2.86
+   r= 0.85  Gam/F= 0.25 | LBG   0.0%  17.36 | BLF  37.5%   9.09
+[S2] umax=2.50 R=0.40 F=0.00400: table done (90s), undecided 381, Gamma_c/F at {-0.9 -0.6 -0.3 0 0.3 0.5 0.7 0.85} = [0.0221 3.07 13.1 22.4 9.65 3.79 0.818 0.0827]
+[S2] admissible x0: 11/25, envelope setpoints [-0.6 -0.3 0.3 0.5], transfer [-0.9 -0.8 -0.45 0.4 0.6 0.7 0.75 0.8 0.85], runs per setpoint 99
+[S2] LBG: med 6.58 worst 13.32 unsettled 0 viol(state) 0 viol(any) 0
+[S2] BLF: 36/162 designs admissible (zero state violations, all settled)
+[S2] fastest BLF regardless of violations: [3 20 0.3 0.1 2] med 2.37 worst 3.14 viol runs 24 sat 0.4%
+[S2] BLF admissible best: [3 20 0.45 0.1 1] med 4.69 worst 6.12 sat 0.22%
+[S2] transfer (state-violation % | median ts):
+   r=-0.90  Gam/F= 0.02 | LBG   0.0%  18.88 | BLF   3.0%   5.72
+   r=-0.80  Gam/F= 0.35 | LBG   0.0%   6.20 | BLF   0.0%   5.58
+   r=-0.45  Gam/F= 6.81 | LBG   0.0%   5.58 | BLF   0.0%   4.52
+   r= 0.40  Gam/F= 6.46 | LBG   0.0%   6.82 | BLF   0.0%   4.96
+   r= 0.60  Gam/F= 1.87 | LBG   0.0%   6.46 | BLF   0.0%   5.34
+   r= 0.70  Gam/F= 0.82 | LBG   0.0%   5.90 | BLF   0.0%   5.48
+   r= 0.75  Gam/F= 0.48 | LBG   0.0%   7.48 | BLF   0.0%   5.54
+   r= 0.80  Gam/F= 0.21 | LBG   0.0%   8.58 | BLF   0.0%   5.86
+   r= 0.85  Gam/F= 0.08 | LBG   0.0%  12.30 | BLF   0.0%   5.96

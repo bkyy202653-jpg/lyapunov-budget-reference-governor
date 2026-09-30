@@ -1,0 +1,27 @@
+# working folders created by the reproduction scripts
+/output/
+/figures/
+
+# MATLAB
+*.asv
+*.autosave
+*.m~
+slprj/
+*.mex*
+
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# temporary files
+*.tmp
+.cache/
+__pycache__/
+build/
+
+# logs: only the reference logs are tracked
+*.log
+!results/logs/*.log

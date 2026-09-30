@@ -1,0 +1,10 @@
+=== test_certify4 (2026-09-29 22:47) ===
+witness v=-0.90 gam=0.001481: ok=0 (boxes 1051)
+witness v=+0.85 gam=0.001508: ok=0 (boxes 1215)
+v=-0.90 certified level 0.001059 ; fmincon at 1.02x: worst/lim = 1.0016
+v=-0.30 certified level 0.061710 ; fmincon at 1.02x: worst/lim = 0.7628
+v= 0.00 certified level 0.102538 ; fmincon at 1.02x: worst/lim = 1.0117
+v= 0.30 certified level 0.047697 ; fmincon at 1.02x: worst/lim = 1.0103
+v= 0.70 certified level 0.004642 ; fmincon at 1.02x: worst/lim = 0.9016
+v= 0.85 certified level 0.001266 ; fmincon at 1.02x: worst/lim = 0.9677
+=== test_certify4 done in 112 s ===

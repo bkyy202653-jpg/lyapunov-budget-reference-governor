@@ -1,0 +1,7 @@
+=== run_envelope([-0.6 -0.3 0.3 0.5 0.7], '_cert_settle', true), re-run 2026-09-29/30 to verify results/reference_results/envelope_cert_settle.mat ===
+admissible x0 grid points: 12 of 25
+LBG*: safe=1 worst ts=15.14 median ts=6.15
+PF+ envelope-safe: k=3 g=5 lam=1 rho=0.3 worst ts=29.26 median ts=3.45
+bp equal 1, X0 equal 1, Rset equal 1
+    3.0000    5.0000    1.0000    0.3000   29.2600    3.4500
+wall-clock time 39 689 s (single thread, run concurrently with other MATLAB jobs on a 4-core machine)

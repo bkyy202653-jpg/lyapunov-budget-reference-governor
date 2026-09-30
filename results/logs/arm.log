@@ -1,0 +1,20 @@
+table 54s
+arm: F=0.00225, undecided 482, Gamma_c/F at [-1.2 -1 -0.6 -0.3 0 0.3 0.6 1 1.2] = [0.801 1.81 11.3 35.4 82.1 35.4 11.3 1.81 0.801], L_Gamma 0.493
+admissible x0 13/25, envelope [-1 -0.6 -0.3 0.3 0.6 1], transfer [-1.2 -0.9 -0.45 0.45 0.8 1.1 1.2], 117 runs per setpoint
+
+=== arm, certified envelope ===
+meth  design                  med    p90  worst  unst  Xviol
+LBG   [1 20 20]              5.02    Inf    Inf   174      0
+CE    20                     4.28   8.42   9.10     0      0
+ERGn  [1 20]                  Inf    Inf    Inf   468    176
+PF+   [3 5 4 0.3]            2.66   4.82   5.66     0      0
+BLF   [2 5 0.2 0.2 2]        2.62   3.05   3.16     0      0
+
+=== transfer (state-violation % | median ts) ===
+r=-1.20 Gam/F=  0.80 | LBG   0.0%    Inf | PF+   0.0%   4.66 | BLF   7.7%   3.04 | CE   0.0%  13.24
+r=-0.90 Gam/F=  2.92 | LBG   0.0%    Inf | PF+   0.0%   3.66 | BLF   0.0%   2.86 | CE   0.0%   6.70
+r=-0.45 Gam/F= 20.80 | LBG   0.0%   3.84 | PF+   0.0%   2.22 | BLF   0.0%   2.46 | CE   0.0%   3.58
+r= 0.45 Gam/F= 20.80 | LBG   0.0%   3.84 | PF+   0.0%   2.22 | BLF   0.0%   2.46 | CE   0.0%   3.58
+r= 0.80 Gam/F=  4.69 | LBG   0.0%   7.00 | PF+   0.0%   3.34 | BLF   0.0%   2.80 | CE   0.0%   5.64
+r= 1.10 Gam/F=  1.15 | LBG   0.0%    Inf | PF+   0.0%   4.34 | BLF   0.0%   2.98 | CE   0.0%  10.26
+r= 1.20 Gam/F=  0.80 | LBG   0.0%    Inf | PF+   0.0%   4.66 | BLF   7.7%   3.04 | CE   0.0%  13.24

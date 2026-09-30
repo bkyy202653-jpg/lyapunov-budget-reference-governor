@@ -1,0 +1,7 @@
+=== arm_gain_scan (2026-09-29 22:50) ===
+k=1 g=  2: adm x0 21, Gam/F at +-1: 1.27, stalls 62/1134, median ts(settled) 4.22, viol 0, median V_end/F 0.45
+k=1 g=  5: adm x0 17, Gam/F at +-1: 1.47, stalls 92/918, median ts(settled) 3.86, viol 0, median V_end/F 0.72
+k=1 g= 80: adm x0  7, Gam/F at +-1: 1.76, stalls 54/378, median ts(settled) 5.14, viol 0, median V_end/F 0.91
+k=2 g= 20: adm x0 11, Gam/F at +-1: 1.58, stalls 34/594, median ts(settled) 2.43, viol 0, median V_end/F 0.46
+k=3 g= 20: adm x0 11, Gam/F at +-1: 1.46, stalls 94/594, median ts(settled) 2.16, viol 0, median V_end/F 1.00
+=== arm_gain_scan done in 364 s ===

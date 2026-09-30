@@ -1,0 +1,5 @@
+Gamma_cert         cells 175 | certified unchanged 175 | shrunk  0 (max 0 steps) | failed 0 | max rel. change 0.00e+00 | 208s
+Gamma_cert_S1      cells  88 | certified unchanged  88 | shrunk  0 (max 0 steps) | failed 0 | max rel. change 0.00e+00 | 28s
+Gamma_cert_S2      cells  88 | certified unchanged  88 | shrunk  0 (max 0 steps) | failed 0 | max rel. change 0.00e+00 | 31s
+Gamma_cert_arm_p1  cells 120 | certified unchanged 120 | shrunk  0 (max 0 steps) | failed 0 | max rel. change 0.00e+00 | 24s
+Gamma_cert_arm     cells 120 | certified unchanged 120 | shrunk  0 (max 0 steps) | failed 0 | max rel. change 0.00e+00 | 33s

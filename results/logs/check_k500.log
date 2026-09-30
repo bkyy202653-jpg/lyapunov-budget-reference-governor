@@ -1,0 +1,9 @@
+=== check_k500 (2026-09-29 23:01) ===
+r=-0.60: no failure at dt=2e-3
+r=-0.30: 24 failing runs at dt=2e-3 -> dt=2e-04: maxviol 0.0e+00, unsettled 0, min Delta 1.49e-02
+r=-0.30: 24 failing runs at dt=2e-3 -> dt=5e-05: maxviol 0.0e+00, unsettled 0, min Delta 1.49e-02
+r= 0.30: 18 failing runs at dt=2e-3 -> dt=2e-04: maxviol 0.0e+00, unsettled 0, min Delta 1.02e-03
+r= 0.30: 18 failing runs at dt=2e-3 -> dt=5e-05: maxviol 0.0e+00, unsettled 0, min Delta 1.02e-03
+r= 0.50: no failure at dt=2e-3
+r= 0.70: no failure at dt=2e-3
+=== check_k500 done in 195 s ===

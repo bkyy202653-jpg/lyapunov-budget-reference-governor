@@ -1,0 +1,35 @@
+BLF tuning done (11615s)
+  ERGn k=1 kap=5: med Inf worst Inf unsettled 360 state-viol runs 24 (max Inf)
+  ERGn k=1 kap=20: med Inf worst Inf unsettled 360 state-viol runs 24 (max Inf)
+  ERGn k=1 kap=100: med Inf worst Inf unsettled 360 state-viol runs 24 (max Inf)
+  ERGn k=1 kap=500: med Inf worst Inf unsettled 362 state-viol runs 24 (max Inf)
+  ERGn k=2 kap=5: med Inf worst Inf unsettled 348 state-viol runs 0 (max 0.000)
+  ERGn k=2 kap=20: med Inf worst Inf unsettled 348 state-viol runs 0 (max 0.000)
+  ERGn k=2 kap=100: med Inf worst Inf unsettled 348 state-viol runs 0 (max 0.000)
+  ERGn k=2 kap=500: med Inf worst Inf unsettled 344 state-viol runs 0 (max 0.000)
+  ERGn k=3 kap=5: med 8.74 worst Inf unsettled 204 state-viol runs 0 (max 0.000)
+  ERGn k=3 kap=20: med 5.10 worst Inf unsettled 204 state-viol runs 0 (max 0.000)
+  ERGn k=3 kap=100: med 4.32 worst Inf unsettled 204 state-viol runs 0 (max 0.000)
+  ERGn k=3 kap=500: med 4.16 worst Inf unsettled 204 state-viol runs 0 (max 0.000)
+  CE kap=20: med 6.65 worst Inf unsettled 46 state-viol runs 40 (max 70.916) cmd>umax runs 18
+  CE kap=100: med 6.73 worst Inf unsettled 76 state-viol runs 67 (max 70.653) cmd>umax runs 20
+
+=== certified envelope, 540 runs per method ===
+method design                    med    p90  worst  unst   Xviol%    maxXv     sat%  IAEmed
+LBG    [1 20 20]                6.06  10.86  12.96     0     0.0%    0.000    0.00%    0.92
+PF     [3 5 1 0.3]              3.45  11.41  29.26     0     0.0%    0.000    0.00%    0.97
+BLF    [2 5 0.45 0.2 1]         4.90   5.96   7.08     0     0.0%    0.000    0.07%    1.03
+ERGn   no admissible design (best unconstrained shown below)
+CE     20                       6.65  11.94    Inf    46     7.4%   70.916    0.97%    0.91
+ERGn*  [3 500]                  4.16    Inf    Inf   204     0.0%    0.000    0.00%    1.42
+
+=== transfer setpoints (deployed designs, state-violation % of 108 runs | median ts) ===
+     r | LBG            | PF             | BLF            | ERGn           | CE            
+ -0.90 |   0.0%    8.24 |  20.4%    5.77 |   0.0%    5.74 |   0.0%     Inf |   5.6%    7.97
+ -0.80 |   0.0%    6.65 |   1.9%    4.96 |   0.0%    5.58 |   0.0%     Inf |   5.6%    6.95
+ -0.45 |   0.0%    5.88 |   0.0%    3.11 |   0.0%    4.69 |   0.0%    4.67 |   0.0%    5.86
+  0.40 |   0.0%    6.67 |   0.0%    3.37 |   0.0%    4.75 |   0.0%    4.46 |   0.0%    6.66
+  0.60 |   0.0%    5.87 |   0.0%    3.63 |   0.0%    5.19 |   0.0%     Inf |  25.0%    6.10
+  0.75 |   0.0%    6.11 |   1.9%    4.87 |   0.0%    5.50 |   0.0%     Inf |  32.4%    6.86
+  0.80 |   0.0%    7.39 |  10.2%    4.99 |   0.0%    5.58 |   0.0%     Inf |  32.4%    7.28
+  0.85 |   0.0%    8.61 |  18.5%    5.56 |   0.0%    5.67 |  11.1%     Inf |  32.4%    8.17
