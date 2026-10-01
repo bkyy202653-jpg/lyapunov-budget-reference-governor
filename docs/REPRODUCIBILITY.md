@@ -52,7 +52,7 @@ Paths: scripts in `code/`, data in `results/`.
 |---|---|---|
 | 13 admissible x(0), 5 payloads, r ∈ {±0.3, ±0.6, ±1} → 390 runs; transfer {±0.45, 0.8, -0.9, 1.1, ±1.2} | `run_arm_p1.m`; `logs/arm_p1.log` | quick: `eval_arm_deployed.m` |
 | LBG: no violation on envelope and transfer; every envelope run settled; median ts 3.6-11.7 s up to abs(r) = 1.1 | same | quick |
-| r = ±1.2: Γ_c < F, 39 of 65 runs stop safely short of the target | same (`eval_arm_deployed.m` prints the unsettled count) | quick |
+| r = ±1.2: Γ_c < F, 39 of the 65 runs at each of the two setpoints r = -1.2 and r = +1.2 rad stop safely short of the target | same (`eval_arm_deployed.m` prints the unsettled count) | quick |
 | ERG-N: 98 of 390 violating, 312 not settled; BLF 7.7 % at r = ±1.2 | same | quick |
 | Fig. 6: torque below 1.1 N m, speed below 0.4 rad/s | `make_figs.m`; `logs/make_figs.log` | quick |
 | p = 2: all 702 runs safe, 25 % (174) stop short with s∞ = Γ_c(v∞) | `run_arm.m`; `diag_arm_stall.m`; `logs/arm.log` | quick (counts), full (diagnosis) |

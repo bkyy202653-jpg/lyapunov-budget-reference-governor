@@ -130,7 +130,7 @@ if ~isempty(bestj)
         text(t(iv) + 0.4, qc.rec.x2(iv) - 0.25, sprintf('violation at $t=%.2f$ s', t(iv)), 'FontSize', fs);
     end
     text(14.6, P.c(2) + 0.15, '$x_2=\pm c_2$', 'HorizontalAlignment', 'right', 'FontSize', fs);
-    ylim([-2 2]); ylabel('$x_2$'); xlabel('$t$ (s)'); legend({'CE margin $\Gamma_c(v)-V_z$', 'LBG margin $\Gamma_c(v)-s$'}, 'Location', 'northeast', 'FontSize', 7); box on;
+    ylim([-2 2]); ylabel('$x_2$'); xlabel('$t$ (s)'); legend({'CE ablation', 'LBG'}, 'Location', 'northeast', 'FontSize', 7); box on;
     pl('(a) second state');
     subplot(1,2,2); plot(t, qc.rec.v, 'Color', col(2,:)); hold on; plot(t, ql.rec.v, 'Color', col(1,:)); yline(bestr, 'k-.');
     text(14.6, bestr + 0.05, sprintf('setpoint $r=%.1f$', bestr), 'HorizontalAlignment', 'right', 'FontSize', fs);
